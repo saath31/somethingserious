@@ -18,7 +18,7 @@ class Student:
         self.classroom = classroom
         return f"{self.first_name} {self.last_name} joins {classroom}."
 
-    def farewell(self):
+    def farewell1(self):
         return f"Goodbye, {self.first_name} {self.last_name}. We wish you the best in your future endeavors!"
 
 
@@ -30,3 +30,4 @@ if __name__ == "__main__":
     print(f"Registered as student #{student.student_id}")
     print(f"Confirmation sent to {student.email}")
     print(student.enroll("MSc 1 Data"))
+    print(student.farewell1())
